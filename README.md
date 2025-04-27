@@ -7,7 +7,6 @@ It simulates domain experts' workflows to:
 - Perform in-depth company and market research.
 - Propose innovative AI/ML/GenAI use cases.
 - Identify relevant public datasets to support the proposed use cases.
-
 ---
 
 ## 🛠️ Technologies Used
@@ -33,7 +32,6 @@ It simulates domain experts' workflows to:
 5. **Markdown Report Generation**: Compiles outputs into a structured report.
 6. **Downloadable Output**: Report available for download via Streamlit.
 ![Uploading Architecture.png…]()
-
 ---
 
 ## 🔄 Working Flow
