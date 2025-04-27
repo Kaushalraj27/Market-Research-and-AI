@@ -1,0 +1,23 @@
+[project]
+name = "multi-agent-ai-assignment"
+version = "0.1.0"
+description = "Multi-Agent System for AI Use Case Generation using CrewAI and Groq"
+authors = [{ name="Your Name", email="your-email@example.com" }]
+dependencies = [
+    "crewai>=0.22.3",
+    "langchain-openai>=0.0.8",
+    "python-dotenv>=1.0.0",
+    "duckduckgo-search>=3.9.3",
+    "beautifulsoup4>=4.12.3",
+    "requests>=2.31.0",
+    "streamlit>=1.30.0"    # ✅ Add this line
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

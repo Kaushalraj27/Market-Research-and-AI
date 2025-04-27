@@ -1,39 +1,22 @@
-# Market-Research-and-AI
-Market Research and AI Use Case Generation Using Multi-Agent Architecture (CrewAI)
-# Multi-Agent System for Market Research and AI Use Case Generation
+# AI Assignment: CrewAI-Based Company Analysis Bot
 
-## Project Overview
+This project builds an automated CrewAI system that:
+- Researches a company's industry and strategy.
+- Suggests 5 innovative AI/ML/GenAI use cases.
+- Finds relevant datasets from Kaggle, GitHub, and Huggingface.
 
-This project designs a Multi-Agent System using the CrewAI framework to perform:
+## Technologies Used
+- Python
+- CrewAI
+- LiteLLM
+- Groq LLMs (Llama3 70B)
+- LangChain
+- dotenv
 
-- **Market Research** on a company
-- **AI/ML/GenAI Use Case Generation**
-- **Resource Asset Collection** (Datasets, links)
+## Project Structure
 
-The goal is to help companies enhance operations, supply chains, and customer experiences by suggesting practical AI applications.
-
----
-
-## Architecture
-
-The system follows a multi-agent collaboration flow:
-![Kaushal_architecture_assignment](https://github.com/user-attachments/assets/af06b557-47c6-49a9-8754-4bd14915b280)
-
-
-
-1. **Research Agent**  
-   - Researches company industry, products/services, and strategic focus areas.
-
-2. **Use Case Agent**  
-   - Analyzes research findings and generates 5 AI/ML/GenAI use cases.
-
-3. **Resource Asset Agent**  
-   - Finds relevant datasets for each use case and saves them with clickable links.
-
-Agents are orchestrated using the CrewAI library.
-
----
-
-## Folder Structure
-![image](https://github.com/user-attachments/assets/55979c16-60cc-4562-ba40-1c122e3d32ac)
-
+```bash
+src/
+├── main.py       # Entry point
+├── crew.py       # Crew, Task and Output logic
+├── agents.py     # Agent roles and goals
