@@ -31,6 +31,7 @@ It simulates domain experts' workflows to:
 4. **Groq Llama3-70B Model**: Provides cognitive intelligence to all agents.
 5. **Markdown Report Generation**: Compiles outputs into a structured report.
 6. **Downloadable Output**: Report available for download via Streamlit.
+   
 ![Architecture](https://github.com/user-attachments/assets/bd735c80-d84f-46ba-aa19-e468368d52e9)
 
 ---
